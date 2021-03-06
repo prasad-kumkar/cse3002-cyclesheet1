@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav p{
+    padding: 0 20px;
+    margin-right: 3px;
+    background-color: black;
+    color: white;
+}
+
+.rating{
+    padding: 20px;
+    margin: 5px;
+    background-color: green;
+    height: 100%;
+}
+.rating p{
+    font-size: 30px;
+    color: white;
+}
+
+.content{
+    display: flex;
+}
+.metascore{
+    width: 50%;
+}

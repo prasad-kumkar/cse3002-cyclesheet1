@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .labels{
+            width: 50%; 
+            margin: 0 10px;
+            display: flex; 
+            flex-direction: column; 
+            text-align: right;
+        }
+        .input{
+            width: 50%; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        .flex{
+            display: flex;
+            margin: 10px;
+        }
+        .form{
+            border: 1px solid black;
+            background-color: rgb(199, 199, 199);
+            
+        }
+        h2, h3{
+            text-align: right;
+            padding: 5px 20px;
+        }
+        h2{
+            background-color: grey;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    
+    <h2>The World of fruit</h2>
+        <h3>Fruit Survey</h3>
+    <form action="" >
+
+        <div class="flex">
+            <label class="labels" for="">Name</label>
+            <input class="input" type="text">
+        </div>
+        <div class="flex">
+            <label class="labels" for="">Address</label>
+            <input class="input" type="text">
+        </div>
+        <div class="flex">
+            <label class="labels" for="">Email</label>
+            <input class="input" type="text">
+        </div>
+        <div class="flex">
+            <label class="labels" for="">How many fruits d you eat?</label>
+            <div class="input" >
+                <div>
+                    <input type="radio"><label for="">1</label>
+                </div>
+                <div>
+                    <input type="radio"><label for="">1</label>
+                </div>
+                <div>
+                    <input type="radio"><label for="">1</label>
+                </div>
+                <div>
+                    <input type="radio"><label for="">1</label>
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <label class="labels" for="">My Favourite food</label>
+            <select multiple style="height:60px; width: 100px" name="fruits" id="">
+                <option value="">Apple</option>
+                <option value="">Banana</option>
+                <option value="">Pom</option>
+                <option value="">Apple</option>
+                <option value="">Banana</option>
+                <option value="">Pom</option>
+                <option value="">Apple</option>
+                <option value="">Banana</option>
+                <option value="">Pom</option>
+            </select>
+        </div>
+        <div class="flex">
+            <label class="labels" for="">Would you like a brochure?</label>
+            <input type="checkbox">
+        </div>
+        <div class="flex">
+            <p class="labels"></p>
+            <button class="" type="submit">Submit</button>
+        </div>
+        
+        </div>
+    </form>
+        
+</div>
+
+</body>
+</html>

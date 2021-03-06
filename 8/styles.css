@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    padding: 20px 20px;
+    color: white;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._Usghe5US98I4FlZrVvETQHaF7%26pid%3DApi&f=1");
+}
+.container{
+    display: flex;
+}
+.nav{
+    width: 25%;
+    padding: 50px;
+}
+.nav h1:hover{
+    color: brown;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    width: 75%;
+
+    padding: 50px;
+}
